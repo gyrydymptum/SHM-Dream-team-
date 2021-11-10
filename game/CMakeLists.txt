@@ -4,6 +4,8 @@ set(SRC_LIST
     Island.cpp
     Player.cpp
     Map.cpp
+    Ship.cpp
+    ShipBuilder.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC_LIST})
